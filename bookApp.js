@@ -16,9 +16,10 @@ let addBar = document.querySelector('.add-bar');
 
 addBar.addEventListener('submit',function(e){
     e.preventDefault();
+
     let value = addBar.querySelector('input[type="text"]').value
     
-    if (value == 'undefined' ) {
+    if ( value == 'undefined' ) {
 
         location.reload()
 
@@ -39,8 +40,6 @@ addBar.addEventListener('submit',function(e){
         ul.classList.add('list');
 
     }
-
-
 })
 
 
